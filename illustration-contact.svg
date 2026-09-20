@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 60 600 640" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <title>Illustration of a person at a laptop with a paper plane, globe and envelope</title>
+  <defs>
+    <symbol id="sp" viewBox="-12 -12 24 24"><path d="M0-11C1-4 4-1 11 0 4 1 1 4 0 11-1 4-4 1-11 0-4-1-1-4 0-11Z" fill="#71b0f3"/></symbol>
+    <symbol id="dt" viewBox="0 0 32 32"><g fill="#71b0f3"><circle cx="4" cy="4" r="2"/><circle cx="16" cy="4" r="2"/><circle cx="28" cy="4" r="2"/><circle cx="4" cy="16" r="2"/><circle cx="16" cy="16" r="2"/><circle cx="28" cy="16" r="2"/><circle cx="4" cy="28" r="2"/><circle cx="16" cy="28" r="2"/><circle cx="28" cy="28" r="2"/></g></symbol>
+  </defs>
+  <g stroke="#71b0f3" stroke-width="1.8">
+    <!-- satellite dish -->
+    <path d="M304 130a52 52 0 0 0 68 52l6-6-52-56Z" fill="#71b0f3"/>
+    <path d="M300 200l-20 48"/><circle cx="332" cy="192" r="6" fill="#014a3d"/>
+    <path d="M370 140l14 14" stroke-width="2.2"/><circle cx="390" cy="132" r="7" stroke-width="2"/>
+    <!-- browser window -->
+    <rect x="196" y="250" width="230" height="148" rx="3" fill="#014a3d"/>
+    <path d="M196 268h230"/><circle cx="208" cy="259" r="1.6" fill="#71b0f3"/><circle cx="216" cy="259" r="1.6" fill="#71b0f3"/><circle cx="224" cy="259" r="1.6" fill="#71b0f3"/>
+    <path d="M226 318L342 270 316 366 288 336 262 356 260 326Z" stroke-width="2"/>
+    <path d="M226 318L288 336 342 270M288 336L262 356"/>
+    <!-- smiley -->
+    <circle cx="478" cy="298" r="26" fill="#71b0f3"/>
+    <path d="M464 300q14 14 28 0" stroke="#014a3d" stroke-width="2.2"/><path d="M466 288q3-4 6 0M484 288q3-4 6 0" stroke="#014a3d" stroke-width="2.2"/>
+    <!-- globe -->
+    <circle cx="112" cy="470" r="62" fill="#71b0f3"/>
+    <ellipse cx="112" cy="470" rx="26" ry="62" stroke="#014a3d"/>
+    <path d="M50 470h124M58 442h108M58 498h108M76 418h72M76 522h72" stroke="#014a3d"/>
+    <!-- phone/laptop screen behind person -->
+    <rect x="160" y="352" width="120" height="200" rx="6" stroke-width="1.8"/>
+    <!-- big cloud -->
+    <path d="M330 560c-10-46 24-84 70-78 40-38 104-4 96 44 44 4 66 44 40 76-22 26-66 24-110 24H310c-40 0-56-36-40-56 14-18 42-16 60-10Z" fill="#71b0f3" stroke="none"/>
+    <circle cx="450" cy="596" r="40" fill="#014a3d"/>
+    <!-- person -->
+    <circle cx="238" cy="488" r="32" stroke-width="2"/>
+    <path d="M206 488c0-24 14-40 34-40 12 0 22 6 26 16-16 2-26-4-32-14-4 14-14 24-28 26Z" fill="#71b0f3" stroke="none"/>
+    <circle cx="226" cy="492" r="9" stroke-width="2"/><circle cx="248" cy="492" r="9" stroke-width="2"/><path d="M235 492h4"/>
+    <path d="M232 508q6 5 12 0" />
+    <path d="M186 610C180 560 196 526 238 520c40-4 62 30 62 92" fill="#014a3d" stroke-width="2"/>
+    <!-- laptop -->
+    <rect x="176" y="570" width="150" height="86" rx="10" fill="#014a3d" stroke-width="2"/>
+    <circle cx="254" cy="608" r="8" fill="#71b0f3" stroke="none"/>
+    <!-- envelope -->
+    <g transform="translate(400 402) rotate(-16)"><rect width="72" height="48" rx="3" fill="#014a3d"/><path d="M2 4l34 24 34-24"/></g>
+    <g transform="translate(70 380) rotate(20)"><rect width="34" height="30" rx="2" fill="#014a3d"/><path d="M2 4l15 12L32 4"/></g>
+    <!-- cloud left -->
+    <circle cx="150" cy="606" r="30" fill="#71b0f3" stroke="none"/><circle cx="96" cy="606" r="26" fill="#71b0f3" stroke="none"/><rect x="66" y="606" width="130" height="34" rx="17" fill="#71b0f3" stroke="none"/>
+    <circle cx="176" cy="628" r="20" fill="#71b0f3" stroke="none"/><circle cx="210" cy="628" r="16" stroke="none" fill="#71b0f3"/>
+    <circle cx="190" cy="180" r="26" fill="#71b0f3" stroke="none"/><circle cx="220" cy="196" r="20" fill="#71b0f3" stroke="none"/><circle cx="166" cy="196" r="18" fill="#71b0f3" stroke="none"/><rect x="146" y="196" width="94" height="22" rx="11" fill="#71b0f3" stroke="none"/>
+    <circle cx="200" cy="205" r="12" stroke="#014a3d"/>
+  </g>
+  <use href="#sp" x="226" y="88" width="24" height="24"/>
+  <use href="#sp" x="98" y="330" width="28" height="28"/>
+  <use href="#sp" x="368" y="360" width="22" height="22"/>
+  <use href="#sp" x="486" y="360" width="34" height="34"/>
+  <use href="#sp" x="502" y="404" width="22" height="22"/>
+  <use href="#sp" x="130" y="130" width="14" height="14"/>
+  <use href="#sp" x="166" y="120" width="18" height="18"/>
+  <use href="#sp" x="240" y="640" width="16" height="16"/>
+  <use href="#dt" x="130" y="150" width="30" height="30" opacity=".0"/>
+  <use href="#dt" x="98" y="300" width="28" height="28"/>
+  <use href="#dt" x="470" y="560" width="40" height="40" transform="translate(30 20)"/>
+  <use href="#dt" x="310" y="590" width="44" height="44"/>
+</svg>
