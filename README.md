@@ -39,18 +39,22 @@ Submissions appear under **Forms** in the Netlify dashboard. Turn on email alert
 | --- | --- |
 | Email and phone (`info@mysite.com`, `123 456 7890`) | `index.html`, `.contact__info` |
 | Testimonial (bracketed placeholder; hide the section until you have a real quote) | `index.html`, `.testimonials__slides` |
-| Illustrations (original placeholder art) | `assets/illustration-story.svg`, `assets/illustration-contact.svg` |
+| Illustrations (original placeholder art) | `illustration-story.svg`, `illustration-contact.svg` |
 
 ## Structure
+
+Everything lives at the top level of the repo (no subfolders):
 
 ```
 index.html        page markup
 styles.css        all styles; colors, fonts and spacing tokens at the top (:root)
 script.js         testimonial carousel, form submit, footer year
 thanks.html       fallback thank-you page if JavaScript is off
-favicon.ico       browser tab icon (ampersand icon), with SVG and Apple touch versions in assets/
 netlify.toml      publish dir + basic security headers
-assets/           favicon, illustrations, self-hosted fonts
+favicon.ico, favicon.svg, apple-touch-icon.png   browser and home-screen icons
+logo-wordmark.svg                                 header logo
+illustration-story.svg, illustration-contact.svg  placeholder illustrations
+*.woff2           self-hosted fonts (Libre Caslon Text, Alegreya)
 ```
 
 ## Fonts
